@@ -1,0 +1,41 @@
+.button {
+  display: inline-block;
+  height: auto;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  overflow: hidden;
+  &__select {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    padding: 1rem;
+    border: none;
+    background-color: rgb(177, 177, 177);
+
+    width: 150px;
+    cursor: pointer;
+  }
+}
+.button--primary {
+  background-color: var(--primaryPurple);
+  color: var(--white);
+}
+.button--secondary {
+  background-color: white;
+  color: var(--black-1);
+}
+.undoButton {
+  background-color: black;
+  color: var(--white);
+  padding: 6px 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
